@@ -133,4 +133,12 @@ public abstract class BaseActivity<V extends BaseView, M extends BaseModel> exte
         }
         ActivityUtil.removeActivity(this);
     }
+
+    public M getModel() {
+        return mModel;
+    }
+
+    public V getView() {
+        return mView;
+    }
 }

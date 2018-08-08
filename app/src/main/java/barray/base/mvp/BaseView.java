@@ -71,10 +71,6 @@ public interface BaseView<P extends BasePresenter> {
      */
     void setActivity(Activity mActivity, boolean isFragment);
 
-
-    void onActivityResult(int requestCode, int resultCode, Intent data);
-
-
     ///////////////////  生命周期  //////////////////////////
 
     void onStart();
